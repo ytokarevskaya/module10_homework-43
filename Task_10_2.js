@@ -5,5 +5,6 @@ for (i = str.length-1; i >= 0; i--){
 }
 console.log(strRev)
 
+// Решение верное, но можно упростить и решить без использования циклв:
 
- 
+let reverseString = str.split('').reverse().join('');
